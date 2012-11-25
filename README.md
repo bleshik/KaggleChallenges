@@ -1,4 +1,5 @@
 KaggleChallenges
 ================
 
-Solved passed kaggle challenges
+Digit Recognizer
+1) Logistic Regression solution
