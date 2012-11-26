@@ -5,7 +5,6 @@ function [J, grad] = lrFunc(Theta, X, y, lambda)
 	
 	% regularized cost function
 	J = sum(-y .* log(h) - (1 - y) .* log(1 - h)) / m + lambda/ 2 / m * sum(Theta(2:n) .^2);
-
 	% gradient
 	grad = zeros(n, 1);
 	for i = 1:n
